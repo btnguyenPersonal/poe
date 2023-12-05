@@ -1,0 +1,36 @@
+g-g-r|g-r-g|r-g-g|g-g|g-r|r-g|nne
+
+============== helix ================
+
+> helix - cruelty - brutality - faster attacks - vicious proj - impale (maybe slower proj somewhere when bossing)
+
+> mark on hit - poacher mark - lifetap
+
+> dread banner - pride - determination
+
+> cwdt - vaal molten shell - tornado - inc duration
+
+> leap slam - faster attacks - frostblink
+
+> blood rage
+
+> enduring cry
+
+> ancestral protector - maim
+
+============== notes ================
+
+- use determ and drop herald of fire after reserve wheel
+
+- get some chaos res before reds (look out for tora)
+
+============== filter ================
+
+%s/PlayAlertSound 1/CustomAlertSound "repair.wav"/g
+%s/PlayAlertSound 2/CustomAlertSound "repairFAIL.wav"/g
+%s/PlayAlertSound 3/CustomAlertSound "potion.wav"/g
+%s/PlayAlertSound 4/CustomAlertSound "moan.wav"/g
+%s/PlayAlertSound 5/CustomAlertSound "roar.wav"/g
+%s/PlayAlertSound 6/CustomAlertSound "levelUP.wav"/g
+%s/PlayAlertSound 9/CustomAlertSound "axeOUT.wav"/g
+
