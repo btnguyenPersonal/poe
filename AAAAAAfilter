@@ -1,3 +1,6 @@
+============== filter ================
+
+%s/PlayAlertSound 1/CustomAlertSound "repair.wav"/g; %s/PlayAlertSound 2/CustomAlertSound "repairFAIL.wav"/g; %s/PlayAlertSound 3/CustomAlertSound "potion.wav"/g; %s/PlayAlertSound 4/CustomAlertSound "moan.wav"/g; %s/PlayAlertSound 5/CustomAlertSound "roar.wav"/g; %s/PlayAlertSound 6/CustomAlertSound "levelUP.wav"/g; %s/PlayAlertSound 9/CustomAlertSound "axeOUT.wav"/g
 g-g-r|g-r-g|r-g-g|g-g|g-r|r-g|nne
 
 ============== helix ================
@@ -23,14 +26,4 @@ g-g-r|g-r-g|r-g-g|g-g|g-r|r-g|nne
 - use determ and drop herald of fire after reserve wheel
 
 - get some chaos res before reds (look out for tora)
-
-============== filter ================
-
-%s/PlayAlertSound 1/CustomAlertSound "repair.wav"/g
-%s/PlayAlertSound 2/CustomAlertSound "repairFAIL.wav"/g
-%s/PlayAlertSound 3/CustomAlertSound "potion.wav"/g
-%s/PlayAlertSound 4/CustomAlertSound "moan.wav"/g
-%s/PlayAlertSound 5/CustomAlertSound "roar.wav"/g
-%s/PlayAlertSound 6/CustomAlertSound "levelUP.wav"/g
-%s/PlayAlertSound 9/CustomAlertSound "axeOUT.wav"/g
 
